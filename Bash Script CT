@@ -30,3 +30,12 @@ echo "Memory Avaliable:" >> "$output_file"
 echo '' >> "$output_file"
 echo "$mem_avaliable" >> "$output_file"
 echo '' >> "$output_file"
+echo "IP Info:" >> "$output_file"
+echo '' >> "$output_file"
+echo "$ip_info" >> "output_file"
+echo '' >> "$output_file"
+echo "File Utilization: $file_utili" >> "$output_file"
+echo '' >> "$output_file"
+echo "Error Lines: $error_lines" >> "$output_file"
+
+cat system_info.txt
